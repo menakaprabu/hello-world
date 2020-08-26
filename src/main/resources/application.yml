@@ -1,0 +1,26 @@
+app:
+  version: '0.0.1'
+
+#Exposes Spring actuator endpoints
+management:
+  health:
+    diskspace:
+      enabled: true
+    db:
+      enabled: true
+    details:
+      enabled: true
+    application:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      datadog:
+        enabled: false
