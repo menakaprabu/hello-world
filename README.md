@@ -18,6 +18,9 @@ Follow the below steps to run the helloworld application.( Docker should be runn
 3. Below command will generate the jar file
 * 		./gradlew clean build
 * 		docker build -f Dockerfile -t docker-helloworld . 
+Output\
+Successfully built 864d4bae605d\
+Successfully tagged docker-helloworld:latest\
 * 		docker run -p 8080:8080 docker-helloworld . 
 4. Launch http://localhost:8080/ Hello! will get displayed
 5. Launch http://localhost:8080/healthz the health details will get displayed
