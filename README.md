@@ -1,6 +1,7 @@
 # Hello world application
 
 # Prerequisite:
+Java 1.8 or above\
 You should have Docker running on your machine\
 If not, download and install docker on your machine\
 For Mac, downlaod and install\
@@ -14,11 +15,12 @@ Follow the below steps to run the helloworld application.( Docker should be runn
 * 		git clone https://github.com/menakaprabu/hello-world.git
 2. Go to project folder where the Dockerfile is present
 * 		cd hello-world
+3. Below command will generate the jar file
 * 		./gradlew clean build
 * 		docker build -f Dockerfile -t docker-helloworld . 
 * 		docker run -p 8080:8080 docker-helloworld . 
-5. Launch http://localhost:8080/ Hello! will get displayed
-6. Launch http://localhost:8080/healthz the health details will get displayed
+4. Launch http://localhost:8080/ Hello! will get displayed
+5. Launch http://localhost:8080/healthz the health details will get displayed
 
 What other information would you add to health endpoint json object in step 2? Explain what would be the use case for that extra information?
 1. Add single line error detail in case if the application is down. Usecase: Helps to fix the issue fast
