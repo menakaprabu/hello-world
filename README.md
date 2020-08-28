@@ -3,6 +3,11 @@
 # Prerequisite:
 You should have Docker running on your machine\
 If not, download and install docker on your machine
+For Mac downlaod and install
+https://docs.docker.com/docker-for-mac/install/
+For Windows downlaod and install
+https://docs.docker.com/docker-for-windows/install/
+
 # Steps to run the hello-world application. Application will run on port: 8080
 Follow the below steps to run the helloworld application.( Docker should be running on your machine.)
 1. Clone the hello-world application\
