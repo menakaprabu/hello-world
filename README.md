@@ -37,7 +37,7 @@ Below are the branches during the development cycle
 * 		hotfix-* — hotfix branches are necessary to act immediately on the production fixes. Hotfix branch is cut off from from master and must merge into master and develop
 * 		release-* — release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. release branch is cut off from from develop and must merge into master and develop
 
-# How would you automate the build/test/deploy process for this application?\
+# How would you automate the build/test/deploy process for this application?
 1.Use Jenkins tool to automate the process.
 # Stages to build/test/deploy (Pipeline script)
 1.Developer pushes the code into GIT repo\
@@ -47,7 +47,7 @@ Below are the branches during the development cycle
 If everything is good it generates the jar file for helloworld application\
 2c:  Build docker image - command: docker build - t myusername/helloworld:0.0.1 . \
 2d: Push the docker image - command: docker push yourusername/helloworld:0.0.1\
-2e: Run the container on the Dev server - command: docker run -p 8080:8080 -d helloworld:0.0.1\
+2e: Run the container on the Dev server - command: docker run -p 8080:8080 -d helloworld:0.0.1
 
 Using sshagent run the docker container in the remote machine(dev server) 
 
