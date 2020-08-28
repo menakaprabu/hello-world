@@ -21,7 +21,7 @@ What branching strategy would you use for development?
 * 		master — This branch contains production code. All development code is merged into master in sometime
 * 		develop — This branch contains pre-production code. When the features are finished then they are merged into develop
 
-Below are the branches during the development cycle\
+Below are the branches during the development cycle
 * 		feature-* — feature branches are used to develop new features for the upcoming releases. Feature branch is cut off from develop and must merge into develop
 * 		hotfix-* — hotfix branches are necessary to act immediately on the production fixes. Hotfix branch is cut off from from master and must merge into master and develop
 * 		release-* — release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. release branch is cut off from from develop and must merge into master and develop
