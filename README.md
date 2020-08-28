@@ -14,6 +14,7 @@ Follow the below steps to run the helloworld application.( Docker should be runn
 * 		git clone https://github.com/menakaprabu/hello-world.git
 2. Go to project folder where the Dockerfile is present
 * 		cd hello-world
+* 		./gradlew clean build
 * 		docker build -f Dockerfile -t docker-helloworld . 
 * 		docker run -p 8080:8080 docker-helloworld . 
 5. Launch http://localhost:8080/ Hello! will get displayed
