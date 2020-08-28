@@ -1,12 +1,12 @@
-# hello-world
-Hello world application\
+#hello-world
+Hello world application
 
-Steps to run the hello-world application. Application will run on port: 8080\
-Prerequisite:\
-You should have Docker running on your machine.\
-If not, download and install docker on your machine.\
+#Steps to run the hello-world application. Application will run on port: 8080
+Prerequisite:
+You should have Docker running on your machine.
+If not, download and install docker on your machine.
 
-Follow the below steps to run the helloworld application.( Docker should be running on your machine.)\
+Follow the below steps to run the helloworld application.( Docker should be running on your machine.)
 1. Clone the hello-world application\
 https://github.com/menakaprabu/hello-world.git
 2. Go to project folder where the Dockerfile is present\
