@@ -15,16 +15,16 @@ https://github.com/menakaprabu/hello-world.git
 6. Launch http://localhost:8080/healthz the health details will get displayed
 
 What other information would you add to health endpoint json object in step 2? Explain what would be the use case for that extra information?
-1. Add single line error detail in case if the application is down. Usecase: Helps to fix the issue fast\
+1. Add single line error detail in case if the application is down. Usecase: Helps to fix the issue fast
 
 What branching strategy would you use for development?
-* 		master — This branch contains production code. All development code is merged into master in sometime\
-* 		develop — This branch contains pre-production code. When the features are finished then they are merged into develop\
+* 		master — This branch contains production code. All development code is merged into master in sometime
+* 		develop — This branch contains pre-production code. When the features are finished then they are merged into develop
 
 Below are the branches during the development cycle\
-* 		feature-* — feature branches are used to develop new features for the upcoming releases. Feature branch is cut off from develop and must merge into develop\
-* 		hotfix-* — hotfix branches are necessary to act immediately on the production fixes. Hotfix branch is cut off from from master and must merge into master and develop\
-* 		release-* — release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. release branch is cut off from from develop and must merge into master and develop\
+* 		feature-* — feature branches are used to develop new features for the upcoming releases. Feature branch is cut off from develop and must merge into develop
+* 		hotfix-* — hotfix branches are necessary to act immediately on the production fixes. Hotfix branch is cut off from from master and must merge into master and develop
+* 		release-* — release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. release branch is cut off from from develop and must merge into master and develop
 
 How would you automate the build/test/deploy process for this application?\
 Use Jenkins tool to automate the process.\
@@ -45,5 +45,5 @@ SONAR - To validate that the code adhere the coding standard and junit coverages
 Deployment job - Deploy the docker container in the pre-prod or prod environment
 
 What CICD tool/service would you use?\
-Jenkins, Docker, gradle\
+Jenkins, Docker, gradle
 
