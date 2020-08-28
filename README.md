@@ -11,7 +11,7 @@ https://docs.docker.com/docker-for-windows/install/
 # Steps to run the hello-world application. Application will run on port: 8080
 Follow the below steps to run the helloworld application.( Docker should be running on your machine.)
 1. Clone the hello-world application\
-https://github.com/menakaprabu/hello-world.git
+git clone https://github.com/menakaprabu/hello-world.git
 2. Go to project folder where the Dockerfile is present
 3. docker build -f Dockerfile -t docker-helloworld . 
 4. docker run -p 8080:8080 docker-helloworld . 
