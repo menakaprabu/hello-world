@@ -38,8 +38,8 @@ Below are the branches during the development cycle
 * 		release-* — release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. release branch is cut off from from develop and must merge into master and develop
 
 # How would you automate the build/test/deploy process for this application?\
-1.Use Jenkins tool to automate the process.\
-# Stages to build/test/deploy (Pipeline script)\
+1.Use Jenkins tool to automate the process.
+# Stages to build/test/deploy (Pipeline script)
 1.Developer pushes the code into GIT repo\
 2.Pipeline job code - I will be having below stages\
 2a: SCM checkout\
