@@ -5,8 +5,8 @@ Steps to run the hello-world application. Application will run on port: 8080
 Prerequisite:
 You should have Docker running on your machine. 
 If not, download and install docker on your machine.
-Follow the below steps once you have docker running on your machine.
 
+Follow the below steps to run the helloworld application.( Docker should be running on your machine.)
 1. Clone the hello-world application 
 https://github.com/menakaprabu/hello-world.git
 2. Go to project folder where the Dockerfile is present
@@ -29,7 +29,7 @@ Below are the branches during the development cycle.
 
 How would you automate the build/test/deploy process for this application? 
 Use Jenkins tool to automate the process.
-Steps to build/test/deploy
+Stages to build/test/deploy (Pipeline script)
 Developer pushes the code into GIT repo.
 Pipeline job code - I will be having below stages.
 2a: SCM checkout
@@ -41,6 +41,10 @@ If everything is good it generates the jar file for helloworld application.
 Using sshagent run the docker container in the remote machine(dev server).
 
 What would be the purpose of each stage in CICD pipeline
-Once any git push happens  - Build and Test job gets triggered.
+Once git push happens  - Build and Test job gets triggered.
 SONAR - To validate that the code adhere the coding standard and junit coverages. (Setup the coverage as 85% so that maximum code is covered)
 Deployment job - Deploy the docker container in the pre-prod or prod environment. 
+
+What CICD tool/service would you use?
+Jenkins, Docker, gradle
+
